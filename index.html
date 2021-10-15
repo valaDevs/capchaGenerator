@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap.4.6.min.css">
+    <title>capcha generator</title>
+</head>
+<body>
+
+        <section class="hero " style="height:100vh;">
+            <div class="container">
+                 <div class="row align-items-center justify-content-center " style="height: 800px;">
+                     <div class="col-lg-8">
+                         <div class="card border border-info ">
+                             <div class="card-header bg-info text-center text-white">Capcha</div>
+                             <div class="card-body">
+                                 <form id="cap-form">
+                                     <div class="form-group">
+
+                                        <input type="text" class="form-control text-center text-black " id="capcha-inp" readonly >
+                                        <input type="submit" value="generate" class="btn btn-info mt-3 btn-block" id="btn-gen">
+                                        <a href="#" class="btn btn-success mt-3 btn-block" id="btn-copy">copy </a>
+                                     </div>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+        </section>
+
+    <script src="main.js"></script>
+</body> 
+</html>
